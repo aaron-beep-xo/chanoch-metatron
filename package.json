@@ -1,0 +1,33 @@
+{
+  "name": "chanoch-metatron",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Chanoch and the Name Within Him \u2014 a multilingual Chassidic-Kabbalistic digital exhibition.",
+  "scripts": {
+    "dev": "next dev -p 3939",
+    "build": "next build",
+    "start": "next start -p 3939",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "i18n:status": "node scripts/translation-status.mjs",
+    "i18n:merge": "node scripts/merge-translation.mjs",
+    "i18n:lint": "node scripts/i18n-lint.mjs"
+  },
+  "dependencies": {
+    "gsap": "^3.15.0",
+    "next": "^16.3.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^16.3.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.0"
+  }
+}

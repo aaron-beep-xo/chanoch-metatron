@@ -1,0 +1,134 @@
+[
+  {
+    "id": "chanoch-ben-yered",
+    "hebrew": "חֲנוֹךְ בֶּן יֶרֶד",
+    "translit": "Chanoch ben Yered",
+    "title": "Chanoch ben Yéred",
+    "layer": "torah",
+    "body": "L’identité humaine n’est pas abandonnée par la charge céleste ; elle y est portée. Dans la tradition des Heikhalot, le messager exalté répond par son patronyme terrestre — fils de Yéred, septième depuis Adam. Tout ce qui suit est arrivé à un homme qui a marché, non à un être qui n’aurait jamais été humain.",
+    "bittul": "Le titre le plus élevé de la constellation est celui qui nomme un père et un lieu d’origine. Une charge n’efface pas une biographie.",
+    "reception": "Le premier acte de réception est d’accepter qu’un commencement nous a été donné, que nous n’avons pas choisi.",
+    "chapters": [1, 2, 13, 50]
+  },
+  {
+    "id": "metatron",
+    "hebrew": "מֶטַטְרוֹן",
+    "translit": "Metatron",
+    "title": "Metatron",
+    "layer": "heikhalot",
+    "body": "L’identité céleste que la littérature des Heikhalot attribue à Chanoch transformé. Le nom lui-même n’a pas d’étymologie fixée dans la tradition, et cette littérature s’intéresse davantage à la charge qu’au mot. Dans le cadre adopté ici, Metatron est l’un des êtres créés les plus exaltés de la littérature mystique juive — et créé est le terme décisif.",
+    "bittul": "Un nom nouveau donné d’en haut demeure un nom donné. Rien dans la transformation ne le rend origine de lui-même.",
+    "reception": "L’identité tout entière est reçue : il est appelé, il ne se proclame pas.",
+    "chapters": [3, 4, 5, 13]
+  },
+  {
+    "id": "sar-hapanim",
+    "hebrew": "שַׂר הַפָּנִים",
+    "translit": "Sar HaPanim",
+    "title": "Prince de la Présence",
+    "layer": "heikhalot",
+    "body": "Un visage tourné vers les ordres inférieurs tandis qu’il demeure un serviteur debout devant la Présence supérieure. Le titre décrit une position par rapport à la Présence, non une possession de celle-ci. Dans certaines traditions des Heikhalot, il est décrit comme prince et chef parmi les princes célestes ; d’autres textes juifs ordonnent autrement la hiérarchie angélique, et ce site garde ce désaccord visible plutôt que de l’aplatir.",
+    "bittul": "Se tenir en permanence devant la Présence, c’est se voir rappeler en permanence ce que l’on n’est pas.",
+    "reception": "Tout ce qu’il transmet vers le bas, il s’est d’abord tenu immobile pour le recevoir.",
+    "chapters": [5, 8, 11]
+  },
+  {
+    "id": "sofer",
+    "hebrew": "הַסּוֹפֵר הַגָּדוֹל",
+    "translit": "HaSofer HaGadol",
+    "title": "Le Grand Scribe",
+    "layer": "heikhalot",
+    "body": "Récepteur, greffier et incarnation fidèle du décret céleste. Écrire est une contraction : une intention sans forme est abaissée dans un trait qui en a une. Le scribe accepte la limite afin que le sens puisse être transmis, et il est jugé sur sa fidélité et non sur son originalité.",
+    "bittul": "Un scribe qui améliore le texte l’a détruit. La fidélité est toute la discipline.",
+    "reception": "La lettre est ce à quoi ressemble la réception lorsqu’elle devient lisible pour autrui.",
+    "chapters": [10, 27]
+  },
+  {
+    "id": "naar",
+    "hebrew": "נַעַר",
+    "translit": "Na’ar",
+    "title": "Le Jeune",
+    "layer": "zohar",
+    "body": "La jeunesse n’est pas ici l’immaturité. C’est une malléabilité permanente : celui que l’on peut encore envoyer, encore former, encore enseigner, et qui ne s’est pas durci en un moi achevé qu’il faudrait défendre. Un serviteur devenu fixe ne peut plus être dépêché.",
+    "bittul": "Ne jamais parvenir à une définition définitive de soi est ce qui le maintient disponible.",
+    "reception": "Seul ce qui est encore tendre peut recevoir une empreinte.",
+    "chapters": [11, 25]
+  },
+  {
+    "id": "bearer-of-the-name",
+    "hebrew": "כִּי שְׁמִי בְּקִרְבּוֹ",
+    "translit": "Ki Chemi bekirbo",
+    "title": "Porteur du Nom",
+    "layer": "torah",
+    "body": "Le verset donne la préposition dont tout le sujet dépend : le Nom est en lui. En lui — non pas comme lui, ni à lui, ni identique à lui. Un réceptacle qui porte un Nom se définit par ce qu’il peut contenir sans le revendiquer.",
+    "bittul": "Toute la grandeur du titre tient dans une seule préposition, et cette préposition est le garde-fou.",
+    "reception": "Porter un Nom, c’est être un lieu où quelque chose est gardé, non une source d’où cela provient.",
+    "chapters": [6, 7, 28]
+  },
+  {
+    "id": "havayah-hakatan",
+    "hebrew": "הֲוָיָ״ה הַקָּטָן",
+    "translit": "Havayah HaKatan",
+    "title": "Havayah HaKatan — le Havayah moindre",
+    "layer": "zohar",
+    "body": "Le titre le plus audacieux de la réception kabbalistique tardive, et celui qui exige le plus sa propre explication. Il désigne un vêtement par lequel le gouvernement est médiatisé vers les ordres inférieurs — jamais une seconde divinité, jamais une autorité indépendante, jamais un objet de prière. La Hassidout fournit la distinction décisive : la plus haute révélation n’est toujours pas Atsmout. Le plus grand réceptacle demeure un réceptacle.",
+    "bittul": "Katan. Petit devant l’Infini. Assez petit pour ne pas confondre le vêtement et Celui qui le porte.",
+    "reception": "Un nom moindre est un nom qui reconnaît, dans sa construction même, qu’il est dérivé.",
+    "chapters": [7, 19, 48]
+  },
+  {
+    "id": "administrator",
+    "hebrew": "מְמֻנֶּה",
+    "translit": "Memouneh",
+    "title": "Administrateur céleste",
+    "layer": "heikhalot",
+    "body": "L’ordre est reçu d’en haut et administré en bas. L’administration est la moins glorieuse des dignités et la plus instructive : elle est entièrement constituée par la relation entre une instruction et son exécution fidèle. Ôtez l’instruction et la charge n’a plus de contenu propre.",
+    "bittul": "Un administrateur qui commence à édicter ses propres décrets a cessé d’administrer.",
+    "reception": "La charge est un conduit doté de mémoire, non une source dotée d’une opinion.",
+    "chapters": [5, 8, 35]
+  },
+  {
+    "id": "keys",
+    "hebrew": "בַּעַל הַמַּפְתְּחוֹת",
+    "translit": "Baal hamaftechos",
+    "title": "Le serviteur aux clés",
+    "layer": "heikhalot",
+    "body": "Les clés sont réelles ; l’accès est réel ; la maison n’est pas la sienne. Un intendant tient les clés d’un bâtiment qu’il n’a pas construit, qu’il ne peut vendre et qu’il ne garde qu’aussi longtemps que dure le dépôt. L’autorité comme intendance est la correction la plus nette à l’autorité comme propriété.",
+    "bittul": "Des clés sont la preuve la plus claire que la maison appartient à quelqu’un d’autre.",
+    "reception": "La confiance est une chose qui vous est tendue ; elle ne devient jamais une chose que vous avez produite.",
+    "chapters": [8, 30, 35]
+  },
+  {
+    "id": "receiver-of-mysteries",
+    "hebrew": "מְקַבֵּל רָזִין",
+    "translit": "Mekabel razin",
+    "title": "Récepteur des mystères et des couronnes",
+    "layer": "midrash",
+    "body": "Des récits légendaires et mystiques tardifs décrivent Chanoch transformé, à qui sont confiés la sagesse, le discernement et les mystères des mondes supérieurs et inférieurs, avec un vêtement de splendeur et une couronne rayonnante, et la garde de trésors célestes. Cela relève d’une tradition d’amplification et est présenté ici comme telle, non comme un simple rapport historique.",
+    "bittul": "Tout ce qui figure sur cette liste a été remis. Rien n’y a été obtenu unilatéralement.",
+    "reception": "Une couronne qui arrive de hors de la tête est l’exact contraire d’une couronne que l’on se forge.",
+    "chapters": [5, 17]
+  },
+  {
+    "id": "threshold",
+    "hebrew": "סַף",
+    "translit": "Saf",
+    "title": "Seuil de la transmission",
+    "layer": "zohar",
+    "body": "Une interface créée par laquelle le gouvernement devient habitable pour les ordres inférieurs — une porte, non une destination. Le danger que porte ce titre est précisément celui contre lequel la Guemara met en garde : un seuil pris pour un trône produit l’erreur des deux autorités.",
+    "bittul": "Un seuil qui demande à être adoré a cessé d’être un passage.",
+    "reception": "Ce qui passe par lui n’est pas diminué par lui et ne devient pas sien.",
+    "chapters": [9, 18, 26]
+  },
+  {
+    "id": "human-memory",
+    "hebrew": "זִכְרוֹן הָאָדָם",
+    "translit": "Zichron ha’adam",
+    "title": "La mémoire humaine au ciel",
+    "layer": "synthesis",
+    "body": "L’ange qui se souvient du sol, de la chronologie, de la vulnérabilité, de l’incarnation et du choix. C’est la dignité qu’aucun être purement céleste ne peut détenir : il sait de l’intérieur ce qu’est une volonté divisée et le fait de choisir malgré tout. C’est la raison pour laquelle son témoignage sur le service vaut quelque chose.",
+    "bittul": "Se souvenir d’avoir été autrefois incapable est une défense permanente contre l’illusion d’être désormais autosuffisant.",
+    "reception": "Le monde d’en bas n’est pas quelque chose qu’il a dépassé. C’est quelque chose qu’il porte.",
+    "chapters": [13, 14, 37, 50]
+  }
+]

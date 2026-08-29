@@ -1,0 +1,42 @@
+{
+  "torah": {
+    "label": "Torah / Tanakh",
+    "short": "Torah",
+    "description": "The written verse itself. Bereishis 5:24 gives four words and no more: Chanoch walked with Elokim, and he was no more, for Elokim took him. Everything else on this site is a reading of that terseness, and is labelled as such."
+  },
+  "chazal": {
+    "label": "Rashi / Chazal",
+    "short": "Chazal",
+    "description": "The classical rabbinic reading. Rashi keeps Chanoch vulnerable — righteous, yet capable of being drawn after wrongdoing, and therefore taken before his time. This layer is what prevents the later exaltation from becoming a story about someone who was never quite human."
+  },
+  "gemara": {
+    "label": "Gemara",
+    "short": "Gemara",
+    "description": "The Talmudic boundary. The account of Acher in Chagigah is the tradition's own warning about what may not be inferred from Metatron's greatness: seeing truly and concluding falsely are not mutually exclusive. This layer supplies the guardrails, not the grandeur."
+  },
+  "heikhalot": {
+    "label": "Heikhalot / 3 Enoch tradition",
+    "short": "Heikhalot",
+    "description": "The palace literature, in which Chanoch ben Yered is explicitly identified with Metatron and given office, garment, crown, names and administrative authority. It is a distinct literary world with its own conventions of magnification, and this site presents it as that world rather than as historical report."
+  },
+  "midrash": {
+    "label": "Midrashic / later legendary synthesis",
+    "short": "Midrash",
+    "description": "Later legendary retellings and traditions of magnification — expanded dimensions, flesh becoming flame, innumerable radiant eyes, seventy names, guardianship of celestial treasures. Presented as attributed tradition. This site does not convert these motifs into claims about what Bereishis says."
+  },
+  "zohar": {
+    "label": "Zohar / Kabbalah",
+    "short": "Kabbalah",
+    "description": "The sefirotic architecture: Malchus and leis lah migarmah klum, or yashar and or chozer, levush and keser, and the reception of Metatron into a structured celestial order — including the difficult title Havayah HaKatan, which this site never presents without its own correction."
+  },
+  "chassidus": {
+    "label": "Chassidus / Chabad",
+    "short": "Chassidus",
+    "description": "The distinction this study depends on most: giluyim are not Atzmus. The highest revelation is still not the Essence. Together with dirah betachtonim and the downward mandate of Basi LeGani and the seventh generation, this layer supplies the site's final direction of travel."
+  },
+  "synthesis": {
+    "label": "Interpretive synthesis of this essay",
+    "short": "Synthesis",
+    "description": "The author's own reading, argument and construction — including the Metatron–Malchus analogy, the reading of an eighth as inhabitation rather than height, and the application to technology and leadership. Marked as interpretation so that it is never mistaken for a received source."
+  }
+}

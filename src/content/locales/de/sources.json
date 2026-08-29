@@ -1,0 +1,42 @@
+{
+  "torah": {
+    "label": "Tora / Tanach",
+    "short": "Tora",
+    "description": "Der geschriebene Vers selbst. Bereschit 5,24 gibt vier Worte und nicht mehr: Chanoch ging mit Elokim, und er war nicht mehr, denn Elokim nahm ihn. Alles Übrige auf dieser Seite ist eine Lesart dieser Knappheit und wird als solche gekennzeichnet."
+  },
+  "chazal": {
+    "label": "Raschi / Chasal",
+    "short": "Chasal",
+    "description": "Die klassische rabbinische Lesart. Raschi hält Chanoch verwundbar — gerecht und dennoch in Gefahr, zum Unrecht gezogen zu werden, und deshalb vor seiner Zeit genommen. Diese Schicht verhindert, dass die spätere Erhebung zur Geschichte von jemandem wird, der nie ganz Mensch war."
+  },
+  "gemara": {
+    "label": "Gemara",
+    "short": "Gemara",
+    "description": "Die talmudische Grenze. Die Erzählung von Acher in Chagiga ist die eigene Warnung der Tradition davor, was aus Metatrons Größe nicht gefolgert werden darf: wahr sehen und falsch schließen schließen einander nicht aus. Diese Schicht liefert die Geländer, nicht die Pracht."
+  },
+  "heikhalot": {
+    "label": "Heichalot / Tradition des 3. Henoch",
+    "short": "Heichalot",
+    "description": "Die Palastliteratur, in der Chanoch ben Jered ausdrücklich mit Metatron identifiziert wird und Amt, Gewand, Krone, Namen und Verwaltungsvollmacht erhält. Es ist eine eigene literarische Welt mit eigenen Konventionen der Steigerung, und diese Seite stellt sie als solche dar und nicht als historischen Bericht."
+  },
+  "midrash": {
+    "label": "Midrasch / spätere legendarische Synthese",
+    "short": "Midrasch",
+    "description": "Spätere legendarische Erzählungen und Traditionen der Steigerung — erweiterte Maße, Fleisch, das zur Flamme wird, unzählige leuchtende Augen, siebzig Namen, Hut über himmlische Schätze. Als zugeschriebene Tradition dargestellt. Diese Seite verwandelt diese Motive nicht in Aussagen darüber, was Bereschit sagt."
+  },
+  "zohar": {
+    "label": "Sohar / Kabbala",
+    "short": "Kabbala",
+    "description": "Die sefirotische Architektur: Malchut und leis lah migarmah klum, or jaschar und or chozer, Lewusch und Keter, und die Aufnahme Metatrons in eine geordnete himmlische Ordnung — einschließlich des schwierigen Titels Hawajah HaKatan, den diese Seite nie ohne seine eigene Berichtigung darstellt."
+  },
+  "chassidus": {
+    "label": "Chassidut / Chabad",
+    "short": "Chassidut",
+    "description": "Die Unterscheidung, auf die sich diese Studie am stärksten stützt: Giluim sind nicht Atzmut. Die höchste Offenbarung ist immer noch nicht das Wesen. Zusammen mit Dira betachtonim und dem abwärts gerichteten Auftrag von Bati LeGani und der siebten Generation gibt diese Schicht der Seite ihre endgültige Richtung."
+  },
+  "synthesis": {
+    "label": "Deutende Synthese dieses Essays",
+    "short": "Synthese",
+    "description": "Die eigene Lesart, Argumentation und Konstruktion des Verfassers — einschließlich der Analogie Metatron–Malchut, der Lesart eines Achten als Bewohnen statt als Höhe und der Anwendung auf Technik und Führung. Als Deutung gekennzeichnet, damit sie nie für eine überlieferte Quelle gehalten wird."
+  }
+}

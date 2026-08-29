@@ -1,0 +1,134 @@
+[
+  {
+    "id": "chanoch-ben-yered",
+    "hebrew": "חֲנוֹךְ בֶּן יֶרֶד",
+    "translit": "Chanoch ben Yered",
+    "title": "Chanoch ben Yered",
+    "layer": "torah",
+    "body": "The human identity is not discarded by the celestial office; it is carried into it. In the Heikhalot tradition the exalted messenger answers by his earthly patronymic — son of Yered, seventh from Adam. Everything that follows is what happened to a man who walked, not to a being who was never human.",
+    "bittul": "The most exalted title in the constellation is the one that names a father and a place of origin. Office does not erase biography.",
+    "reception": "The first act of reception is accepting that one was given a beginning one did not choose.",
+    "chapters": [1, 2, 13, 50]
+  },
+  {
+    "id": "metatron",
+    "hebrew": "מֶטַטְרוֹן",
+    "translit": "Metatron",
+    "title": "Metatron",
+    "layer": "heikhalot",
+    "body": "The transformed celestial identity that Heikhalot literature assigns to Chanoch. The name itself has no settled etymology in the tradition, and the literature is more interested in the office than in the word. Within the frame this site adopts, Metatron is one of the most exalted created beings in Jewish mystical literature — and created is the operative term.",
+    "bittul": "A new name given from above is still a name given. Nothing in the transformation makes him self-originating.",
+    "reception": "The whole identity is a received one: he is called, not self-declared.",
+    "chapters": [3, 4, 5, 13]
+  },
+  {
+    "id": "sar-hapanim",
+    "hebrew": "שַׂר הַפָּנִים",
+    "translit": "Sar HaPanim",
+    "title": "Prince of the Presence",
+    "layer": "heikhalot",
+    "body": "A face turned toward the lower orders while remaining a servant standing before the Higher Presence. The title describes position relative to the Presence, not possession of it. In particular Heikhalot traditions he is described as prince and chief among celestial princes; other Jewish texts arrange the angelic hierarchy differently, and this site keeps that disagreement visible rather than flattening it.",
+    "bittul": "To stand before the Presence permanently is to be permanently reminded of what one is not.",
+    "reception": "Everything he transmits downward he first stood still to receive.",
+    "chapters": [5, 8, 11]
+  },
+  {
+    "id": "sofer",
+    "hebrew": "הַסּוֹפֵר הַגָּדוֹל",
+    "translit": "HaSofer HaGadol",
+    "title": "The Great Scribe",
+    "layer": "heikhalot",
+    "body": "Receiver, recorder and faithful embodiment of heavenly decree. Writing is contraction: an intention with no shape is brought down into a stroke that has one. The scribe accepts limitation so that meaning can be transmitted, and is judged by fidelity rather than by originality.",
+    "bittul": "A scribe who improves the text has destroyed it. Faithfulness is the entire discipline.",
+    "reception": "The letter is what reception looks like when it becomes legible to others.",
+    "chapters": [10, 27]
+  },
+  {
+    "id": "naar",
+    "hebrew": "נַעַר",
+    "translit": "Na’ar",
+    "title": "The Youth",
+    "layer": "zohar",
+    "body": "Youth here is not immaturity. It is permanent formability: the one who can still be sent, still be shaped, still be taught, and who has not hardened into a finished self that would have to defend itself. A servant who has become fixed can no longer be dispatched.",
+    "bittul": "Never arriving at a final self-definition is what keeps him available.",
+    "reception": "Only what is still soft can take an impression.",
+    "chapters": [11, 25]
+  },
+  {
+    "id": "bearer-of-the-name",
+    "hebrew": "כִּי שְׁמִי בְּקִרְבּוֹ",
+    "translit": "Ki Shemi b’kirbo",
+    "title": "Bearer of the Name",
+    "layer": "torah",
+    "body": "The verse gives the preposition the whole subject depends on: the Name is within him. Within — not as him, not belonging to him, not identical to him. A vessel that carries a Name is defined by what it can hold without claiming.",
+    "bittul": "The entire greatness of the title lives inside one preposition, and the preposition is the guardrail.",
+    "reception": "To bear a Name is to be a place where something is kept, not a source from which it comes.",
+    "chapters": [6, 7, 28]
+  },
+  {
+    "id": "havayah-hakatan",
+    "hebrew": "הֲוָיָ״ה הַקָּטָן",
+    "translit": "Havayah HaKatan",
+    "title": "Havayah HaKatan — the Lesser Havayah",
+    "layer": "zohar",
+    "body": "The most audacious title in later Kabbalistic reception, and the one that most requires its own explanation. It designates a garment through which governance is mediated to lower orders — never a second deity, never an independent authority, never an object of prayer. Chassidus supplies the decisive distinction: the highest revelation is still not Atzmus. The greatest vessel remains a vessel.",
+    "bittul": "Katan. Small before the Infinite. Small enough not to confuse the garment with the Wearer.",
+    "reception": "A lesser name is a name that admits, in its own construction, that it is derivative.",
+    "chapters": [7, 19, 48]
+  },
+  {
+    "id": "administrator",
+    "hebrew": "מְמֻנֶּה",
+    "translit": "Memuneh",
+    "title": "Celestial Administrator",
+    "layer": "heikhalot",
+    "body": "Command is received from above and administered below. Administration is the least glamorous of the dignities and the most instructive: it is entirely constituted by the relation between an instruction and its faithful execution. Remove the instruction and the office has no content of its own.",
+    "bittul": "An administrator who begins issuing his own decrees has stopped administering.",
+    "reception": "The office is a conduit with a memory, not a source with an opinion.",
+    "chapters": [5, 8, 35]
+  },
+  {
+    "id": "keys",
+    "hebrew": "בַּעַל הַמַּפְתְּחוֹת",
+    "translit": "Ba’al hamaftechos",
+    "title": "The Servant With the Keys",
+    "layer": "heikhalot",
+    "body": "The keys are real; access is real; the house is not his. A steward holds keys to a building he did not build, cannot sell and holds only while the trust lasts. Authority as stewardship is the sharpest available correction to authority as ownership.",
+    "bittul": "Keys are the clearest possible proof that the house belongs to someone else.",
+    "reception": "Trust is a thing extended to you; it never becomes a thing you generated.",
+    "chapters": [8, 30, 35]
+  },
+  {
+    "id": "receiver-of-mysteries",
+    "hebrew": "מְקַבֵּל רָזִין",
+    "translit": "Mekabel razin",
+    "title": "Receiver of Mysteries and Crowns",
+    "layer": "midrash",
+    "body": "Later legendary and mystical retellings describe the transformed Chanoch entrusted with wisdom, discernment and the mysteries of upper and lower worlds, with a garment of splendour and a radiant crown, and with guardianship over celestial treasures. These belong to a tradition of magnification and are presented here as that tradition, not as plain historical report.",
+    "bittul": "Everything on the list was handed over. Nothing on it was achieved unilaterally.",
+    "reception": "A crown that arrives from beyond the head is the opposite of a crown one forges.",
+    "chapters": [5, 17]
+  },
+  {
+    "id": "threshold",
+    "hebrew": "סַף",
+    "translit": "Saf",
+    "title": "Threshold of Transmission",
+    "layer": "zohar",
+    "body": "A created interface through which governance becomes inhabitable to lower orders — a doorway, not a destination. The danger this title carries is precisely the one the Gemara warns about: a threshold mistaken for a throne produces the error of two authorities.",
+    "bittul": "A threshold that asks to be worshipped has stopped being a way through.",
+    "reception": "What passes through him is not diminished by him and does not become his.",
+    "chapters": [9, 18, 26]
+  },
+  {
+    "id": "human-memory",
+    "hebrew": "זִכְרוֹן הָאָדָם",
+    "translit": "Zichron ha’adam",
+    "title": "Human Memory in Heaven",
+    "layer": "synthesis",
+    "body": "The angel who remembers soil, chronology, vulnerability, embodiment and choice. This is the dignity that no purely celestial being can hold: he knows from the inside what it is to have a divided will and to choose anyway. It is the reason his testimony about service is worth anything at all.",
+    "bittul": "Remembering that one was once unable is a permanent defence against imagining that one is now self-sufficient.",
+    "reception": "The lower world is not something he transcended. It is something he carries.",
+    "chapters": [13, 14, 37, 50]
+  }
+]

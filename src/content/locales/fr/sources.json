@@ -1,0 +1,42 @@
+{
+  "torah": {
+    "label": "Torah / Tanakh",
+    "short": "Torah",
+    "description": "Le verset écrit lui-même. Béréchit 5:24 donne quatre mots et pas davantage : Chanoch marcha avec Elokim, et il n’était plus, car Elokim l’avait pris. Tout le reste de ce site est une lecture de cette concision, et se trouve étiqueté comme tel."
+  },
+  "chazal": {
+    "label": "Rachi / Sages",
+    "short": "Sages",
+    "description": "La lecture rabbinique classique. Rachi maintient Chanoch vulnérable — juste, et pourtant susceptible d’être entraîné vers le mal, et pris pour cette raison avant son temps. Cette couche est ce qui empêche l’exaltation ultérieure de devenir l’histoire de quelqu’un qui n’aurait jamais tout à fait été humain."
+  },
+  "gemara": {
+    "label": "Guemara",
+    "short": "Guemara",
+    "description": "La limite talmudique. Le récit d’Acher dans Haguiga est l’avertissement que la tradition s’adresse à elle-même sur ce qu’il ne faut pas déduire de la grandeur de Metatron : voir vrai et conclure faux ne s’excluent pas. Cette couche fournit les garde-fous, non la magnificence."
+  },
+  "heikhalot": {
+    "label": "Heikhalot / tradition du 3 Hénoch",
+    "short": "Heikhalot",
+    "description": "La littérature des palais, où Chanoch ben Yéred est explicitement identifié à Metatron et reçoit charge, vêtement, couronne, noms et autorité administrative. C’est un monde littéraire distinct, doté de ses propres conventions d’amplification, et ce site le présente comme tel plutôt que comme un rapport historique."
+  },
+  "midrash": {
+    "label": "Midrach / synthèse légendaire tardive",
+    "short": "Midrach",
+    "description": "Récits légendaires et traditions d’amplification tardifs — dimensions élargies, chair devenue flamme, yeux lumineux innombrables, soixante-dix noms, garde des trésors célestes. Présentés comme tradition attribuée. Ce site ne convertit pas ces motifs en affirmations sur ce que dit Béréchit."
+  },
+  "zohar": {
+    "label": "Zohar / Kabbale",
+    "short": "Kabbale",
+    "description": "L’architecture des sefirot : Malkhout et leis lah migarmah kloum, or yashar et or chozer, levouch et keter, et la réception de Metatron dans un ordre céleste structuré — y compris le titre difficile de Havayah HaKatan, que ce site ne présente jamais sans sa propre correction."
+  },
+  "chassidus": {
+    "label": "Hassidout / Habad",
+    "short": "Hassidout",
+    "description": "La distinction dont cette étude dépend le plus : les giloujim ne sont pas Atsmout. La plus haute révélation n’est toujours pas l’Essence. Avec dirah betachtonim et le mandat descendant de Bati LeGani et de la septième génération, cette couche donne au site sa direction finale."
+  },
+  "synthesis": {
+    "label": "Synthèse interprétative de cet essai",
+    "short": "Synthèse",
+    "description": "La lecture, l’argument et la construction propres à l’auteur — y compris l’analogie Metatron–Malkhout, la lecture d’un huitième comme habitation plutôt que comme hauteur, et l’application à la technologie et au commandement. Signalés comme interprétation afin de n’être jamais pris pour une source reçue."
+  }
+}
