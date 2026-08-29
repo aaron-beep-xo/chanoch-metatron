@@ -8,14 +8,13 @@ import { Preferences, prefsBootScript } from "@/components/chrome/Preferences";
 import { SiteHeader } from "@/components/chrome/SiteHeader";
 import { SiteFooter } from "@/components/chrome/SiteFooter";
 import { AmbientField } from "@/components/motion/AmbientField";
+import { SITE_URL } from "@/lib/site-url";
 
 export const dynamicParams = false;
 
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://chanoch.example";
 
 export async function generateMetadata({
   params,

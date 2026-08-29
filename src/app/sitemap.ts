@@ -1,8 +1,7 @@
 import type { MetadataRoute } from "next";
 import { locales } from "@/lib/i18n";
 import { getSlugs } from "@/lib/content";
-
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://chanoch.example";
+import { SITE_URL } from "@/lib/site-url";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const slugs = await getSlugs();

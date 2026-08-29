@@ -34,9 +34,18 @@ npm run lint       # eslint (next/core-web-vitals + next/typescript)
 npm run typecheck  # tsc --noEmit
 ```
 
+### Live
+
+- **Site:** https://chanoch-metatron.vercel.app
+- **Repo:** https://github.com/aaron-beep-xo/chanoch-metatron
+
+Pushes to `main` deploy automatically.
+
 `NEXT_PUBLIC_SITE_URL` sets the canonical origin used by metadata, `hreflang`,
-`sitemap.xml` and `robots.txt`. It defaults to a placeholder; set it before
-deploying.
+`sitemap.xml` and `robots.txt`. When it is unset the origin falls back to
+Vercel's own `VERCEL_PROJECT_PRODUCTION_URL`, so deployments are self-consistent
+without configuration; set it explicitly once a custom domain is attached
+(`src/lib/site-url.ts`).
 
 ---
 

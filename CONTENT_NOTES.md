@@ -116,5 +116,7 @@ The following are the author's argument, not received sources, and carry the
   terms. In locales where a term is inflected away from its dictionary form, the
   inline annotation may not fire; the chapter's term drawer still lists every
   term with its full definition, so no information is lost.
-- `NEXT_PUBLIC_SITE_URL` defaults to a placeholder origin. Canonical URLs,
-  `hreflang` and the sitemap will be wrong until it is set for the real domain.
+- The canonical origin resolves from `NEXT_PUBLIC_SITE_URL`, then Vercel's
+  `VERCEL_PROJECT_PRODUCTION_URL`, then localhost. It is currently the Vercel
+  subdomain; set `NEXT_PUBLIC_SITE_URL` when a custom domain is attached so
+  canonical URLs, `hreflang` and the sitemap point at it.
