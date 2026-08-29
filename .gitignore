@@ -9,3 +9,7 @@ tsconfig.tsbuildinfo
 
 # Local editor / preview config
 .claude/
+.vercel
+
+# Vercel
+.vercel
