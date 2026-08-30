@@ -19,6 +19,7 @@ import { ReadingProgress } from "@/components/study/ReadingProgress";
 import { ChapterTools } from "@/components/study/ChapterTools";
 import { SourceDrawer } from "@/components/study/SourceDrawer";
 import { createAnnotator } from "@/lib/annotate";
+import { BRAND } from "@/lib/brand";
 
 export const dynamicParams = false;
 
@@ -91,6 +92,10 @@ export default async function ChapterPage({
     position: c.n,
     articleSection: actCopy[act.id].title,
     description: c.subtitle,
+    author: { "@type": "Person", name: BRAND.author },
+    publisher: { "@type": "Organization", name: BRAND.name, url: BRAND.url },
+    copyrightHolder: { "@type": "Organization", name: BRAND.name },
+    copyrightYear: BRAND.year,
   };
 
   return (

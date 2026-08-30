@@ -9,6 +9,7 @@ import { SiteHeader } from "@/components/chrome/SiteHeader";
 import { SiteFooter } from "@/components/chrome/SiteFooter";
 import { AmbientField } from "@/components/motion/AmbientField";
 import { SITE_URL } from "@/lib/site-url";
+import { BRAND } from "@/lib/brand";
 
 export const dynamicParams = false;
 
@@ -37,6 +38,9 @@ export async function generateMetadata({
     },
     description: ui.site.description,
     keywords: ui.site.keywords,
+    authors: [{ name: BRAND.author }],
+    creator: BRAND.author,
+    publisher: BRAND.name,
     alternates: {
       canonical: `/${locale}`,
       languages: { ...languages, "x-default": "/en" },

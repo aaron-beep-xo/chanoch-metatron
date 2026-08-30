@@ -1,5 +1,7 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
+import { BRAND } from "@/lib/brand";
+import { fill } from "@/lib/format";
 
 export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
   return (
@@ -26,11 +28,23 @@ export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
               <li><Link href={`/${locale}/sources`}>{ui.nav.sources}</Link></li>
             </ul>
           </div>
+          <div>
+            <p className="eyebrow">{ui.footer.publishedBy}</p>
+            {/* The wordmark is a name, not prose: it keeps its own script and
+                direction inside the right-to-left locales. */}
+            <p className="footer-brand" lang="en" dir="ltr">
+              <a href={BRAND.url}>{BRAND.name}</a>
+            </p>
+            <p className="footer-brand-author" lang="en" dir="ltr">{BRAND.author}</p>
+          </div>
         </div>
         <p className="footer-sacred sacred-sm" lang="he" dir="rtl">
           וַיִּתְהַלֵּךְ חֲנוֹךְ אֶת־הָאֱלֹהִים
         </p>
         <p className="footer-rights">{ui.footer.rights}</p>
+        <p className="footer-copyright">
+          {fill(ui.footer.copyright, { year: BRAND.year, brand: BRAND.name })}
+        </p>
       </div>
     </footer>
   );

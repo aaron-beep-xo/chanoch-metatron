@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "description": "Chanoch and the Name Within Him \u2014 a multilingual Chassidic-Kabbalistic digital exhibition.",
+  "author": "Aaron Abush (Sacred Bridge Collective)",
+  "license": "UNLICENSED",
   "scripts": {
     "dev": "next dev -p 3939",
     "build": "next build",

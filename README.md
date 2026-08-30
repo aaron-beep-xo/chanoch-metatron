@@ -244,3 +244,15 @@ not mirrored English.
 
 See `CONTENT_NOTES.md` for the specific places that still want rabbinic or
 native-speaker review.
+
+---
+
+## Publisher
+
+Published by **[Sacred Bridge Collective](https://www.sacredbridge.co)** — Aaron Abush.
+
+The name is held in one place, `src/lib/brand.ts`, and flows from there into the
+footer wordmark (linked to sacredbridge.co) and copyright line, the document metadata (`author`, `creator`,
+`publisher`) and the `ScholarlyArticle` JSON-LD on every chapter. It is rendered
+untranslated in all seven locales; only the surrounding labels
+(`footer.publishedBy`, `footer.copyright`) are localised.

@@ -166,8 +166,10 @@
     "colophonBody": "Set in an editorial serif for English, with Hebrew, Yiddish, Arabic and Japanese given their own native typography rather than Latin proportions imposed on other scripts. Motion is authored with GSAP and a small hand-written WebGL layer, and is disabled wherever the reader has asked for less of it.",
     "editorialNote": "Editorial note",
     "editorialNoteBody": "English is the source of truth for this text. Translations aim to read as native compositions. Source-layer labels are part of the argument, not decoration.",
+    "publishedBy": "Published by",
     "rights": "This study is offered for learning.",
-    "backToTop": "Back to top"
+    "backToTop": "Back to top",
+    "copyright": "© {{year}} {{brand}}. All rights reserved."
   },
   "error": {
     "notFoundTitle": "Not here",

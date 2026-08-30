@@ -564,6 +564,36 @@ a { color: inherit; }
 }
 [lang="ja"] .footer-rights, [lang="ar"] .footer-rights { text-transform: none; letter-spacing: 0.04em; }
 
+/* The publisher's wordmark. Latin in every locale, so it is given a little more
+   presence than the links beside it without competing with the work's own title. */
+.footer-brand {
+  margin-top: 0.7rem;
+  font-family: var(--font-ui);
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  color: var(--ink);
+}
+.footer-brand a {
+  color: inherit;
+  text-decoration: none;
+  transition: color var(--dur-quick) var(--ease-sacred);
+}
+.footer-brand a:hover { color: var(--accent-bright); }
+.footer-brand-author {
+  margin-top: 0.25rem;
+  font-family: var(--font-ui);
+  font-size: 0.82rem;
+  color: var(--ink-quiet);
+}
+.footer-copyright {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-family: var(--font-ui);
+  font-size: 0.72rem;
+  color: var(--ink-quiet);
+  opacity: 0.55;
+}
+
 /* ---- Walk --------------------------------------------------------------- */
 
 .walk { width: 100%; }

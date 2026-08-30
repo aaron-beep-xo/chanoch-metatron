@@ -166,8 +166,10 @@
     "colophonBody": "L’anglais est composé dans une serif éditoriale ; l’hébreu, le yiddish, l’arabe et le japonais reçoivent leur propre typographie plutôt que des proportions latines imposées à d’autres écritures. Le mouvement est écrit avec GSAP et une petite couche WebGL écrite à la main, et il est désactivé partout où le lecteur en a demandé moins.",
     "editorialNote": "Note éditoriale",
     "editorialNoteBody": "L’anglais fait foi pour ce texte. Les traductions visent à se lire comme des compositions originales. Les étiquettes de couches de sources font partie de l’argument, non de la décoration.",
+    "publishedBy": "Publié par",
     "rights": "Cette étude est offerte pour l’étude.",
-    "backToTop": "Retour en haut"
+    "backToTop": "Retour en haut",
+    "copyright": "© {{year}} {{brand}}. Tous droits réservés."
   },
   "error": {
     "notFoundTitle": "Pas ici",

@@ -166,8 +166,10 @@
     "colophonBody": "Das Englische ist in einer redaktionellen Serifenschrift gesetzt; Hebräisch, Jiddisch, Arabisch und Japanisch erhalten eine eigene Typografie statt lateinischer Proportionen, die anderen Schriften aufgezwungen werden. Die Bewegung ist mit GSAP und einer kleinen, von Hand geschriebenen WebGL-Schicht gestaltet und wird überall dort abgeschaltet, wo die Leserschaft weniger davon gewünscht hat.",
     "editorialNote": "Redaktionelle Anmerkung",
     "editorialNoteBody": "Englisch ist die maßgebliche Fassung dieses Textes. Die Übersetzungen sollen sich wie eigenständige Texte lesen. Die Quellenschicht-Kennzeichnungen gehören zur Argumentation, nicht zur Dekoration.",
+    "publishedBy": "Herausgegeben von",
     "rights": "Diese Studie wird zum Lernen bereitgestellt.",
-    "backToTop": "Nach oben"
+    "backToTop": "Nach oben",
+    "copyright": "© {{year}} {{brand}}. Alle Rechte vorbehalten."
   },
   "error": {
     "notFoundTitle": "Nicht hier",
