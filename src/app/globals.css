@@ -593,6 +593,13 @@ a { color: inherit; }
   color: var(--ink-quiet);
   opacity: 0.55;
 }
+.footer-licence {
+  color: inherit;
+  text-underline-offset: 0.25em;
+  text-decoration-color: var(--rule);
+  transition: color var(--dur-quick) var(--ease-sacred);
+}
+.footer-licence:hover { color: var(--accent-bright); }
 
 /* ---- Walk --------------------------------------------------------------- */
 

@@ -169,7 +169,7 @@
     "publishedBy": "Published by",
     "rights": "This study is offered for learning.",
     "backToTop": "Back to top",
-    "copyright": "© {{year}} {{brand}}. All rights reserved."
+    "copyright": "© {{year}} {{brand}}. Shared under {{licence}} — quote and reuse freely, with attribution."
   },
   "error": {
     "notFoundTitle": "Not here",

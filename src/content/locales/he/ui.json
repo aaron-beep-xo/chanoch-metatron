@@ -169,7 +169,7 @@
     "publishedBy": "יוצא לאור על ידי",
     "rights": "עיון זה ניתן ללימוד.",
     "backToTop": "חזרה למעלה",
-    "copyright": "© {{year}} {{brand}}. כל הזכויות שמורות."
+    "copyright": "© {{year}} {{brand}}. ניתן ברישיון {{licence}} — מותר לצטט ולהשתמש בחופשיות, תוך מתן קרדיט."
   },
   "error": {
     "notFoundTitle": "אֵינֶנּוּ כאן",

@@ -1,9 +1,15 @@
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
-import { BRAND } from "@/lib/brand";
+import { BRAND, LICENCE } from "@/lib/brand";
 import { fill } from "@/lib/format";
 
 export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
+  // The licence identifier is a link and must not be translated, so the notice
+  // is split around it rather than interpolated — every language keeps its own
+  // word order on both sides of the name.
+  const [beforeLicence, afterLicence] = String(ui.footer.copyright).split("{{licence}}");
+  const vars = { year: BRAND.year, brand: BRAND.name };
+
   return (
     <footer className="site-footer">
       <div className="shell">
@@ -43,7 +49,11 @@ export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
         </p>
         <p className="footer-rights">{ui.footer.rights}</p>
         <p className="footer-copyright">
-          {fill(ui.footer.copyright, { year: BRAND.year, brand: BRAND.name })}
+          {fill(beforeLicence, vars)}
+          <a className="footer-licence" href={LICENCE.url} rel="license" lang="en" dir="ltr">
+            {LICENCE.name}
+          </a>
+          {fill(afterLicence ?? "", vars)}
         </p>
       </div>
     </footer>

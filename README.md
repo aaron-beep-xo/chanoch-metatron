@@ -256,3 +256,14 @@ footer wordmark (linked to sacredbridge.co) and copyright line, the document met
 `publisher`) and the `ScholarlyArticle` JSON-LD on every chapter. It is rendered
 untranslated in all seven locales; only the surrounding labels
 (`footer.publishedBy`, `footer.copyright`) are localised.
+
+## Licence
+
+Copyright is retained. The work is offered under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/): quote it, translate
+it, build on it, commercially or not, so long as Sacred Bridge Collective and
+Aaron Abush are credited. See `LICENSE`.
+
+The licence identifier is never translated. `footer.copyright` carries a
+`{{licence}}` placeholder that the footer splits around, so every language keeps
+its own word order on both sides of the linked name.

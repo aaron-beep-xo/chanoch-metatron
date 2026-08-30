@@ -11,3 +11,13 @@ export const BRAND = {
   /** Build year, used for the copyright notice. */
   year: new Date().getFullYear(),
 } as const;
+
+/**
+ * Copyright is retained; the text may be quoted, translated and built upon by
+ * anyone who credits it. Named here rather than inside the localised strings so
+ * the licence identifier stays exact in every language.
+ */
+export const LICENCE = {
+  name: "CC BY 4.0",
+  url: "https://creativecommons.org/licenses/by/4.0/",
+} as const;
