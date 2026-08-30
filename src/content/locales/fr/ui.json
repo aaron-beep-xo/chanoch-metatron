@@ -169,7 +169,7 @@
     "publishedBy": "Publié par",
     "rights": "Cette étude est offerte pour l’étude.",
     "backToTop": "Retour en haut",
-    "copyright": "© {{year}} {{brand}}. Diffusé sous licence {{licence}} — citez et réutilisez librement, avec attribution."
+    "copyright": "© {{year}} {{brand}} · {{author}}. Diffusé sous licence {{licence}} — citez et réutilisez librement, avec attribution."
   },
   "error": {
     "notFoundTitle": "Pas ici",

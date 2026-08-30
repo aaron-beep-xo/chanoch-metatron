@@ -264,6 +264,8 @@ Copyright is retained. The work is offered under
 it, build on it, commercially or not, so long as Sacred Bridge Collective and
 Aaron Abush are credited. See `LICENSE`.
 
-The licence identifier is never translated. `footer.copyright` carries a
-`{{licence}}` placeholder that the footer splits around, so every language keeps
-its own word order on both sides of the linked name.
+Neither name nor the licence identifier is ever translated. `footer.copyright`
+carries `{{brand}}`, `{{author}}` and `{{licence}}` placeholders that the footer
+splits on and renders as elements — links for the first and last, each with its
+own `lang` and `dir` — so every language keeps its own word order around them
+and the names stay Latin and left-to-right inside the RTL locales.

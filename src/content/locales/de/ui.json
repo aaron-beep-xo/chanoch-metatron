@@ -169,7 +169,7 @@
     "publishedBy": "Herausgegeben von",
     "rights": "Diese Studie wird zum Lernen bereitgestellt.",
     "backToTop": "Nach oben",
-    "copyright": "© {{year}} {{brand}}. Veröffentlicht unter {{licence}} — frei zitieren und weiterverwenden, mit Namensnennung."
+    "copyright": "© {{year}} {{brand}} · {{author}}. Veröffentlicht unter {{licence}} — frei zitieren und weiterverwenden, mit Namensnennung."
   },
   "error": {
     "notFoundTitle": "Nicht hier",

@@ -169,7 +169,7 @@
     "publishedBy": "発行",
     "rights": "この study は学びのために供される。",
     "backToTop": "先頭へ戻る",
-    "copyright": "© {{year}} {{brand}}. 本文は {{licence}} のもとで公開。出典を明示すれば自由に引用・利用できる。"
+    "copyright": "© {{year}} {{brand}} · {{author}}. 本文は {{licence}} のもとで公開。出典を明示すれば自由に引用・利用できる。"
   },
   "error": {
     "notFoundTitle": "ここにはありません",

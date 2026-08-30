@@ -1,15 +1,44 @@
+import { Fragment } from "react";
 import Link from "next/link";
 import type { Locale } from "@/lib/i18n";
 import { BRAND, LICENCE } from "@/lib/brand";
 import { fill } from "@/lib/format";
 
-export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
-  // The licence identifier is a link and must not be translated, so the notice
-  // is split around it rather than interpolated — every language keeps its own
-  // word order on both sides of the name.
-  const [beforeLicence, afterLicence] = String(ui.footer.copyright).split("{{licence}}");
-  const vars = { year: BRAND.year, brand: BRAND.name };
+/**
+ * The copyright notice carries names that are links, and names that must keep
+ * Latin script and left-to-right order inside the right-to-left locales. None
+ * of them survive plain interpolation, so the localised sentence is split on
+ * its placeholders and each one is rendered as an element — which also lets
+ * every language keep its own word order around them.
+ */
+function renderNotice(template: string) {
+  return template.split(/(\{\{(?:brand|author|licence)\}\})/).map((part, i) => {
+    switch (part) {
+      case "{{brand}}":
+        return (
+          <a key={i} href={BRAND.url} lang="en" dir="ltr">
+            {BRAND.name}
+          </a>
+        );
+      case "{{author}}":
+        return (
+          <span key={i} lang="en" dir="ltr">
+            {BRAND.author}
+          </span>
+        );
+      case "{{licence}}":
+        return (
+          <a key={i} href={LICENCE.url} rel="license" lang="en" dir="ltr">
+            {LICENCE.name}
+          </a>
+        );
+      default:
+        return <Fragment key={i}>{fill(part, { year: BRAND.year })}</Fragment>;
+    }
+  });
+}
 
+export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
   return (
     <footer className="site-footer">
       <div className="shell">
@@ -48,13 +77,7 @@ export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
           וַיִּתְהַלֵּךְ חֲנוֹךְ אֶת־הָאֱלֹהִים
         </p>
         <p className="footer-rights">{ui.footer.rights}</p>
-        <p className="footer-copyright">
-          {fill(beforeLicence, vars)}
-          <a className="footer-licence" href={LICENCE.url} rel="license" lang="en" dir="ltr">
-            {LICENCE.name}
-          </a>
-          {fill(afterLicence ?? "", vars)}
-        </p>
+        <p className="footer-copyright">{renderNotice(String(ui.footer.copyright))}</p>
       </div>
     </footer>
   );
