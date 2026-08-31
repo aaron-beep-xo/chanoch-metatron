@@ -776,6 +776,11 @@ section { position: relative; z-index: 1; }
   background: var(--rule);
   border-block: 1px solid var(--rule);
 }
+/* The hairlines between the cards are this grid's own background, showing
+   through a 1px gap. What the grid stretches is the reveal wrapper, not the
+   card inside it, so the card has to be made to fill its cell — otherwise the
+   rule reappears as a band under whichever card has the shortest blurb. */
+.modes-grid > * { display: grid; }
 .mode-card {
   display: block;
   position: relative;
