@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next";
 import { notFound } from "next/navigation";
 import "../globals.css";
 import { fontVariables } from "@/lib/fonts";
@@ -94,6 +95,7 @@ export default async function LocaleLayout({
           </main>
           <SiteFooter locale={l} ui={ui} />
         </Preferences>
+        <Analytics />
       </body>
     </html>
   );
