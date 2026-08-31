@@ -10,6 +10,7 @@ import { SiteFooter } from "@/components/chrome/SiteFooter";
 import { AmbientField } from "@/components/motion/AmbientField";
 import { SITE_URL } from "@/lib/site-url";
 import { BRAND } from "@/lib/brand";
+import { Analytics } from "@vercel/analytics/next";
 
 export const dynamicParams = false;
 
@@ -91,6 +92,7 @@ export default async function LocaleLayout({
           </main>
           <SiteFooter locale={l} ui={ui} />
         </Preferences>
+        <Analytics />
       </body>
     </html>
   );
