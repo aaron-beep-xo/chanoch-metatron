@@ -5,6 +5,8 @@ import { isLocale, type Locale } from "@/lib/i18n";
 import { getUI, getSourceCopy, getEssay } from "@/lib/content";
 import { chapterMeta, sourceLayerIds } from "@/content/structure";
 import { Reveal } from "@/components/motion/Reveal";
+import { Veil } from "@/components/motion/Veil";
+import { MEDIA } from "@/lib/media";
 
 export async function generateMetadata({
   params,
@@ -30,6 +32,7 @@ export default async function SourcesPage({ params }: { params: Promise<{ locale
 
   return (
     <div className="page sources-page">
+      <Veil art={MEDIA.veil.sources} className="veil-page" />
       <header className="page-head shell">
         <Reveal as="p" className="eyebrow">{ui.sources.eyebrow}</Reveal>
         <Reveal as="h1" className="page-title" delay={60}>{ui.sources.title}</Reveal>

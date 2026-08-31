@@ -4,6 +4,8 @@ import { isLocale, type Locale } from "@/lib/i18n";
 import { getUI, getGlossary, getEssay } from "@/lib/content";
 import { chapterMeta } from "@/content/structure";
 import { Reveal } from "@/components/motion/Reveal";
+import { Veil } from "@/components/motion/Veil";
+import { MEDIA } from "@/lib/media";
 import { GlossaryList } from "@/components/features/GlossaryList";
 
 export async function generateMetadata({
@@ -44,6 +46,7 @@ export default async function GlossaryPage({ params }: { params: Promise<{ local
 
   return (
     <div className="page glossary-page">
+      <Veil art={MEDIA.veil.glossary} className="veil-page" />
       <header className="page-head shell">
         <Reveal as="p" className="eyebrow">{ui.glossary.eyebrow}</Reveal>
         <Reveal as="h1" className="page-title" delay={60}>{ui.glossary.title}</Reveal>

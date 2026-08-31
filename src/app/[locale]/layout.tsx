@@ -10,6 +10,7 @@ import { SiteFooter } from "@/components/chrome/SiteFooter";
 import { AmbientField } from "@/components/motion/AmbientField";
 import { SITE_URL } from "@/lib/site-url";
 import { BRAND } from "@/lib/brand";
+import { MEDIA, OG_SIZE } from "@/lib/media";
 
 export const dynamicParams = false;
 
@@ -52,11 +53,13 @@ export async function generateMetadata({
       title: ui.site.title,
       description: ui.site.description,
       siteName: ui.site.shortTitle,
+      images: [{ url: MEDIA.og, ...OG_SIZE, alt: ui.site.title }],
     },
     twitter: {
       card: "summary_large_image",
       title: ui.site.title,
       description: ui.site.description,
+      images: [MEDIA.og],
     },
     robots: { index: true, follow: true },
   };

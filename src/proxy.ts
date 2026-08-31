@@ -1,7 +1,8 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { locales, defaultLocale } from "@/lib/i18n";
 
-const PUBLIC_FILE = /\.(?:png|jpg|jpeg|svg|webp|avif|ico|txt|xml|json|webmanifest|woff2?)$/i;
+const PUBLIC_FILE =
+  /\.(?:png|jpg|jpeg|svg|webp|avif|ico|mp4|webm|txt|xml|json|webmanifest|woff2?)$/i;
 
 function preferredLocale(req: NextRequest): string {
   const cookie = req.cookies.get("locale")?.value;

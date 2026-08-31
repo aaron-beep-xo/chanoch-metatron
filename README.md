@@ -60,6 +60,8 @@ without configuration; set it explicitly once a custom domain is attached
 | Per-locale content | `src/content/locales/<locale>/*.json` |
 | Design tokens, all component CSS | `src/app/globals.css` |
 | Fonts | `src/lib/fonts.ts` |
+| Generated plates and loops | `src/lib/media.ts`, `public/media/` |
+| Favicon and touch icon | `src/app/icon.svg`, `favicon.ico`, `apple-icon.png` |
 | Routes | `src/app/[locale]/…` |
 
 Everything lives under `/[locale]`, which is also the **root layout** — that is

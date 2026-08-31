@@ -3,7 +3,9 @@
 import Link from "next/link";
 import { useRef } from "react";
 import { WalkPath } from "@/components/motion/WalkPath";
+import { AmbientVideo } from "@/components/motion/AmbientVideo";
 import { useGsapScope } from "@/components/motion/useGsap";
+import { MEDIA } from "@/lib/media";
 import type { Locale } from "@/lib/i18n";
 
 export function Hero({ locale, ui }: { locale: Locale; ui: any }) {
@@ -82,6 +84,13 @@ export function Hero({ locale, ui }: { locale: Locale; ui: any }) {
 
   return (
     <section className="hero grain" ref={scope}>
+      <AmbientVideo
+        className="hero-veil"
+        src={MEDIA.hero.video}
+        poster={MEDIA.hero.poster}
+        still={MEDIA.hero.still}
+      />
+
       <div className="hero-depth" aria-hidden="true">
         <span>ה</span>
         <span>י</span>

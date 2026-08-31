@@ -4,7 +4,9 @@ import { isLocale, type Locale } from "@/lib/i18n";
 import { getUI, getEssay } from "@/lib/content";
 import { Hero } from "@/components/experience/Hero";
 import { Reveal } from "@/components/motion/Reveal";
+import { Veil } from "@/components/motion/Veil";
 import { acts } from "@/content/structure";
+import { MEDIA } from "@/lib/media";
 import { getActs } from "@/lib/content";
 
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
@@ -40,13 +42,17 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <section className="modes" aria-label={ui.nav.primaryNavigation}>
         <div className="shell modes-grid">
           {[
-            { href: `/${l}/experience`, t: ui.modes.experienceTitle, b: ui.modes.experienceBlurb, k: "01" },
-            { href: `/${l}/study`, t: ui.modes.studyTitle, b: ui.modes.studyBlurb, k: "02" },
-            { href: `/${l}/office`, t: ui.office.title, b: ui.modes.officeBlurb, k: "03" },
-            { href: `/${l}/circuit`, t: ui.circuit.title, b: ui.modes.circuitBlurb, k: "04" },
+            { href: `/${l}/experience`, t: ui.modes.experienceTitle, b: ui.modes.experienceBlurb, k: "01", art: MEDIA.card.experience },
+            { href: `/${l}/study`, t: ui.modes.studyTitle, b: ui.modes.studyBlurb, k: "02", art: MEDIA.card.study },
+            { href: `/${l}/office`, t: ui.office.title, b: ui.modes.officeBlurb, k: "03", art: MEDIA.card.office },
+            { href: `/${l}/circuit`, t: ui.circuit.title, b: ui.modes.circuitBlurb, k: "04", art: MEDIA.card.circuit },
           ].map((m, i) => (
             <Reveal key={m.href} delay={i * 90}>
-              <Link href={m.href} className="mode-card">
+              <Link
+                href={m.href}
+                className="mode-card"
+                style={{ ["--card-art" as string]: `url("${m.art}")` }}
+              >
                 <span className="mode-index" aria-hidden="true">{m.k}</span>
                 <h3>{m.t}</h3>
                 <p>{m.b}</p>
@@ -74,6 +80,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       </section>
 
       <section className="acts-index" aria-labelledby="acts-h">
+        <Veil art={MEDIA.veil.experience} className="veil-section" />
         <div className="shell">
           <Reveal as="h2" id="acts-h" className="section-h">
             {ui.modes.experienceTitle}

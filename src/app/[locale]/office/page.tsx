@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { getUI, getDignities, getSourceCopy, getEssay } from "@/lib/content";
 import { Reveal } from "@/components/motion/Reveal";
+import { Veil } from "@/components/motion/Veil";
+import { MEDIA } from "@/lib/media";
 import { CelestialOffice } from "@/components/features/CelestialOffice";
 
 export async function generateMetadata({
@@ -40,6 +42,7 @@ export default async function OfficePage({ params }: { params: Promise<{ locale:
 
   return (
     <div className="page office-page">
+      <Veil art={MEDIA.veil.office} className="veil-page" />
       <header className="page-head shell">
         <Reveal as="p" className="eyebrow">{ui.office.eyebrow}</Reveal>
         <Reveal as="h1" className="page-title" delay={60}>{ui.office.title}</Reveal>

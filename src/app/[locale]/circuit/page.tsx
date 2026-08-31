@@ -3,6 +3,8 @@ import { notFound } from "next/navigation";
 import { isLocale, type Locale } from "@/lib/i18n";
 import { getUI, getMalchus } from "@/lib/content";
 import { Reveal } from "@/components/motion/Reveal";
+import { AmbientVideo } from "@/components/motion/AmbientVideo";
+import { MEDIA } from "@/lib/media";
 import { MalchusCircuit } from "@/components/features/MalchusCircuit";
 
 export async function generateMetadata({
@@ -28,6 +30,12 @@ export default async function CircuitPage({ params }: { params: Promise<{ locale
 
   return (
     <div className="page circuit-page">
+      <AmbientVideo
+        className="veil-page"
+        src={MEDIA.circuit.video}
+        poster={MEDIA.circuit.poster}
+        still={MEDIA.veil.circuit}
+      />
       <header className="page-head shell">
         <Reveal as="p" className="eyebrow">{ui.circuit.eyebrow}</Reveal>
         <Reveal as="h1" className="page-title" delay={60}>{ui.circuit.title}</Reveal>

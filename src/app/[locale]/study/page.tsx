@@ -5,6 +5,8 @@ import { isLocale, type Locale } from "@/lib/i18n";
 import { getUI, getEssay, getActs, getSourceCopy, readingMinutes, fill } from "@/lib/content";
 import { acts, metaOf } from "@/content/structure";
 import { Reveal } from "@/components/motion/Reveal";
+import { Veil } from "@/components/motion/Veil";
+import { MEDIA } from "@/lib/media";
 import { StudyIndex } from "@/components/study/StudyIndex";
 
 export async function generateMetadata({
@@ -45,6 +47,7 @@ export default async function StudyPage({ params }: { params: Promise<{ locale: 
 
   return (
     <div className="page study-page">
+      <Veil art={MEDIA.veil.study} className="veil-page" />
       <header className="page-head shell">
         <Reveal as="p" className="eyebrow">{ui.study.eyebrow}</Reveal>
         <Reveal as="h1" className="page-title" delay={70}>{essay.title}</Reveal>
