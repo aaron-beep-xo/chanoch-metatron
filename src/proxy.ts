@@ -30,6 +30,7 @@ export default function proxy(req: NextRequest) {
 
   if (
     pathname.startsWith("/_next") ||
+    pathname.startsWith("/_vercel") ||
     pathname.startsWith("/api") ||
     PUBLIC_FILE.test(pathname)
   ) {
@@ -45,5 +46,5 @@ export default function proxy(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/((?!_next/static|_next/image|favicon.ico).*)"],
+  matcher: ["/((?!_next/static|_next/image|_vercel|favicon.ico).*)"],
 };
