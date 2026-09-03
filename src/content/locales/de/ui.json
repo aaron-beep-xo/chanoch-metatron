@@ -171,7 +171,8 @@
       "eyebrow": "Mehr",
       "title": "Web-Seforim",
       "body": "Sechs Seforim, eine Architektur. Jedes steht für sich; zusammen gelesen führen sie vom Verborgenen zum Offenbarten.",
-      "count": "{{count}} Bände in der Sammlung"
+      "count": "{{count}} Bände in der Sammlung",
+      "here": "Sie sind hier"
     },
     "rights": "Diese Studie wird zum Lernen bereitgestellt.",
     "backToTop": "Nach oben",

@@ -171,7 +171,8 @@
       "eyebrow": "More",
       "title": "Web Seforim",
       "body": "Six seforim, one architecture. Each stands on its own; read together they run from the concealed toward the revealed.",
-      "count": "{{count}} volumes in the collection"
+      "count": "{{count}} volumes in the collection",
+      "here": "You are here"
     },
     "rights": "This study is offered for learning.",
     "backToTop": "Back to top",

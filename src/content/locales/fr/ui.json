@@ -171,7 +171,8 @@
       "eyebrow": "Plus",
       "title": "Seforim du Web",
       "body": "Six seforim, une seule architecture. Chacun tient seul ; lus ensemble, ils vont du caché vers le révélé.",
-      "count": "{{count}} volumes dans la collection"
+      "count": "{{count}} volumes dans la collection",
+      "here": "Vous êtes ici"
     },
     "rights": "Cette étude est offerte pour l’étude.",
     "backToTop": "Retour en haut",
