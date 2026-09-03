@@ -1,7 +1,8 @@
 import { Fragment } from "react";
 import Link from "next/link";
-import type { Locale } from "@/lib/i18n";
+import { formatNumber, type Locale } from "@/lib/i18n";
 import { BRAND, LICENCE } from "@/lib/brand";
+import { SEFORIM } from "@/lib/seforim";
 import { fill } from "@/lib/format";
 
 /**
@@ -38,39 +39,75 @@ function renderNotice(template: string) {
   });
 }
 
+/**
+ * The collection this volume belongs to, given a panel of its own at the head
+ * of the footer rather than a column among the others — the footer should open
+ * onto the rest of the work, not only close the page.
+ *
+ * The names are the invitation, so each one is set in both scripts and the
+ * whole row is the target. Like the publisher's wordmark, they keep their own
+ * script and direction inside the right-to-left locales.
+ */
+function WebSeforim({ locale, ui }: { locale: Locale; ui: any }) {
+  return (
+    <section className="seforim" aria-labelledby="seforim-title">
+      <p className="eyebrow">{ui.footer.seforim.eyebrow}</p>
+      <h2 className="seforim-title" id="seforim-title">{ui.footer.seforim.title}</h2>
+      <p className="footer-body seforim-body">{ui.footer.seforim.body}</p>
+      <ul className="seforim-list">
+        {SEFORIM.map((sefer) => (
+          <li key={sefer.url}>
+            <a href={sefer.url} target="_blank" rel="noopener">
+              <span className="seforim-mark" aria-hidden="true" lang="he" dir="rtl">{sefer.letter}</span>
+              <span className="seforim-name" lang="en" dir="ltr">{sefer.name}</span>
+              <span className="seforim-hebrew" lang="he" dir="rtl">{sefer.hebrew}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+      <p className="seforim-count">
+        {fill(String(ui.footer.seforim.count), { count: formatNumber(SEFORIM.length, locale) })}
+      </p>
+    </section>
+  );
+}
+
 export function SiteFooter({ locale, ui }: { locale: Locale; ui: any }) {
   return (
     <footer className="site-footer">
       <div className="shell">
         <hr className="rule" />
-        <div className="footer-grid">
-          <div>
-            <p className="eyebrow">{ui.footer.colophon}</p>
-            <p className="footer-body">{ui.footer.colophonBody}</p>
-          </div>
-          <div>
-            <p className="eyebrow">{ui.footer.editorialNote}</p>
-            <p className="footer-body">{ui.footer.editorialNoteBody}</p>
-          </div>
-          <div>
-            <p className="eyebrow">{ui.nav.primaryNavigation}</p>
-            <ul className="footer-links">
-              <li><Link href={`/${locale}/experience`}>{ui.nav.experience}</Link></li>
-              <li><Link href={`/${locale}/study`}>{ui.nav.study}</Link></li>
-              <li><Link href={`/${locale}/office`}>{ui.nav.office}</Link></li>
-              <li><Link href={`/${locale}/circuit`}>{ui.nav.circuit}</Link></li>
-              <li><Link href={`/${locale}/glossary`}>{ui.nav.glossary}</Link></li>
-              <li><Link href={`/${locale}/sources`}>{ui.nav.sources}</Link></li>
-            </ul>
-          </div>
-          <div>
-            <p className="eyebrow">{ui.footer.publishedBy}</p>
-            {/* The wordmark is a name, not prose: it keeps its own script and
-                direction inside the right-to-left locales. */}
-            <p className="footer-brand" lang="en" dir="ltr">
-              <a href={BRAND.url}>{BRAND.name}</a>
-            </p>
-            <p className="footer-brand-author" lang="en" dir="ltr">{BRAND.author}</p>
+        <div className="footer-top">
+          <WebSeforim locale={locale} ui={ui} />
+          <div className="footer-grid">
+            <div>
+              <p className="eyebrow">{ui.footer.colophon}</p>
+              <p className="footer-body">{ui.footer.colophonBody}</p>
+            </div>
+            <div>
+              <p className="eyebrow">{ui.footer.editorialNote}</p>
+              <p className="footer-body">{ui.footer.editorialNoteBody}</p>
+            </div>
+            <div>
+              <p className="eyebrow">{ui.nav.primaryNavigation}</p>
+              <ul className="footer-links">
+                <li><Link href={`/${locale}/experience`}>{ui.nav.experience}</Link></li>
+                <li><Link href={`/${locale}/study`}>{ui.nav.study}</Link></li>
+                <li><Link href={`/${locale}/office`}>{ui.nav.office}</Link></li>
+                <li><Link href={`/${locale}/circuit`}>{ui.nav.circuit}</Link></li>
+                <li><Link href={`/${locale}/glossary`}>{ui.nav.glossary}</Link></li>
+                <li><Link href={`/${locale}/sources`}>{ui.nav.sources}</Link></li>
+              </ul>
+            </div>
+            <div>
+              <p className="eyebrow">{ui.footer.publishedBy}</p>
+              {/* The wordmark is a name, not prose: it keeps its own script and
+                  direction inside the right-to-left locales. */}
+              <p className="footer-brand" lang="en" dir="ltr">
+                <a href={BRAND.url}>{BRAND.name}</a>
+              </p>
+              <p className="footer-brand-author" lang="en" dir="ltr">{BRAND.author}</p>
+            </div>
           </div>
         </div>
         <p className="footer-sacred sacred-sm" lang="he" dir="rtl">

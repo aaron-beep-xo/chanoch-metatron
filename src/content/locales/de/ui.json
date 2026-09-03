@@ -167,6 +167,12 @@
     "editorialNote": "Redaktionelle Anmerkung",
     "editorialNoteBody": "Englisch ist die maßgebliche Fassung dieses Textes. Die Übersetzungen sollen sich wie eigenständige Texte lesen. Die Quellenschicht-Kennzeichnungen gehören zur Argumentation, nicht zur Dekoration.",
     "publishedBy": "Herausgegeben von",
+    "seforim": {
+      "eyebrow": "Mehr",
+      "title": "Web-Seforim",
+      "body": "Sechs Seforim, eine Architektur. Jedes steht für sich; zusammen gelesen führen sie vom Verborgenen zum Offenbarten.",
+      "count": "{{count}} Bände in der Sammlung"
+    },
     "rights": "Diese Studie wird zum Lernen bereitgestellt.",
     "backToTop": "Nach oben",
     "copyright": "© {{year}} {{brand}} · {{author}}. Veröffentlicht unter {{licence}} — frei zitieren und weiterverwenden, mit Namensnennung."

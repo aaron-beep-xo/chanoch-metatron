@@ -167,6 +167,12 @@
     "editorialNote": "Note éditoriale",
     "editorialNoteBody": "L’anglais fait foi pour ce texte. Les traductions visent à se lire comme des compositions originales. Les étiquettes de couches de sources font partie de l’argument, non de la décoration.",
     "publishedBy": "Publié par",
+    "seforim": {
+      "eyebrow": "Plus",
+      "title": "Seforim du Web",
+      "body": "Six seforim, une seule architecture. Chacun tient seul ; lus ensemble, ils vont du caché vers le révélé.",
+      "count": "{{count}} volumes dans la collection"
+    },
     "rights": "Cette étude est offerte pour l’étude.",
     "backToTop": "Retour en haut",
     "copyright": "© {{year}} {{brand}} · {{author}}. Diffusé sous licence {{licence}} — citez et réutilisez librement, avec attribution."

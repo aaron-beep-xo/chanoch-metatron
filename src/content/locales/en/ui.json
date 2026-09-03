@@ -167,6 +167,12 @@
     "editorialNote": "Editorial note",
     "editorialNoteBody": "English is the source of truth for this text. Translations aim to read as native compositions. Source-layer labels are part of the argument, not decoration.",
     "publishedBy": "Published by",
+    "seforim": {
+      "eyebrow": "More",
+      "title": "Web Seforim",
+      "body": "Six seforim, one architecture. Each stands on its own; read together they run from the concealed toward the revealed.",
+      "count": "{{count}} volumes in the collection"
+    },
     "rights": "This study is offered for learning.",
     "backToTop": "Back to top",
     "copyright": "© {{year}} {{brand}} · {{author}}. Shared under {{licence}} — quote and reuse freely, with attribution."

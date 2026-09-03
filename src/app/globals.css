@@ -535,11 +535,23 @@ a { color: inherit; }
   margin-top: clamp(5rem, 12vh, 9rem);
   padding-bottom: clamp(2.5rem, 6vh, 4rem);
 }
+/* The collection's panel leads, and the colophon columns fill the rest of the
+   line beside it. Below the header's own breakpoint the two stack, which puts
+   the sibling volumes first on a narrow screen rather than last. */
+.footer-top {
+  display: grid;
+  grid-template-columns: minmax(0, 24rem) minmax(0, 1fr);
+  gap: clamp(1.75rem, 4vw, 3.5rem);
+  padding-top: clamp(2.5rem, 6vh, 4rem);
+}
+@media (max-width: 62rem) {
+  .footer-top { grid-template-columns: minmax(0, 1fr); }
+}
 .footer-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: clamp(1.75rem, 4vw, 3.5rem);
-  padding-top: clamp(2.5rem, 6vh, 4rem);
+  align-content: start;
 }
 .footer-body { font-size: 0.9rem; line-height: 1.7; color: var(--ink-quiet); margin-top: 0.7rem; max-width: 26rem; }
 .footer-links { list-style: none; margin: 0.7rem 0 0; padding: 0; display: grid; gap: 0.4rem; }
@@ -600,6 +612,82 @@ a { color: inherit; }
   transition: color var(--dur-quick) var(--ease-sacred);
 }
 .footer-copyright a:hover { color: var(--accent-bright); }
+
+/* ---- Web Seforim -------------------------------------------------------- */
+
+/* The sibling volumes. A panel rather than a column: it carries the collection's
+   name at title weight so the footer opens onto the rest of the work instead of
+   only closing the page. Gold stays where it belongs — on the letters and on the
+   Hebrew names — and the panel's own ground is barely lit. */
+.seforim {
+  position: relative;
+  padding: clamp(1.5rem, 3.2vw, 2.1rem);
+  border: 1px solid var(--rule);
+  background:
+    radial-gradient(120% 90% at 0% 0%, color-mix(in oklab, var(--accent) 9%, transparent), transparent 62%),
+    color-mix(in oklab, var(--depth) 48%, transparent);
+}
+.seforim-title {
+  margin: 0.5rem 0 0;
+  font-size: clamp(1.55rem, 1.2rem + 1.2vw, 2.1rem);
+  line-height: 1.16;
+  color: var(--ink-strong);
+}
+.seforim-body { margin-top: 0.6rem; max-width: 30rem; }
+
+.seforim-list { list-style: none; margin: clamp(1.2rem, 3vh, 1.9rem) 0 0; padding: 0; }
+.seforim-list li + li { border-top: 1px solid color-mix(in oklab, var(--rule) 60%, transparent); }
+.seforim-list a {
+  display: grid;
+  grid-template-columns: 1.4rem minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: clamp(0.7rem, 2vw, 1.15rem);
+  padding: 0.72rem 0.4rem;
+  text-decoration: none;
+  transition: background-color var(--dur-quick) var(--ease-sacred);
+}
+.seforim-list a:hover, .seforim-list a:focus-visible {
+  background: color-mix(in oklab, var(--accent) 8%, transparent);
+}
+.seforim-mark {
+  font-family: var(--font-hebrew);
+  font-size: 0.95rem;
+  text-align: center;
+  color: color-mix(in oklab, var(--accent) 78%, var(--ink-quiet));
+  transition: color var(--dur-quick) var(--ease-sacred);
+}
+.seforim-name {
+  font-family: var(--font-display);
+  font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.3rem);
+  color: var(--ink-strong);
+  transition: color var(--dur-quick) var(--ease-sacred);
+}
+.seforim-hebrew {
+  font-family: var(--font-hebrew);
+  font-size: 1rem;
+  color: var(--accent);
+  unicode-bidi: isolate;
+  transition: color var(--dur-quick) var(--ease-sacred);
+}
+.seforim-list a:hover .seforim-mark, .seforim-list a:focus-visible .seforim-mark,
+.seforim-list a:hover .seforim-name, .seforim-list a:focus-visible .seforim-name,
+.seforim-list a:hover .seforim-hebrew, .seforim-list a:focus-visible .seforim-hebrew {
+  color: var(--accent-bright);
+}
+.seforim-count {
+  margin-top: clamp(0.9rem, 2vh, 1.3rem);
+  font-family: var(--font-ui);
+  font-size: 0.66rem;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--ink-quiet);
+  opacity: 0.65;
+}
+[lang="ja"] .seforim-count, [lang="ar"] .seforim-count,
+[lang="he"] .seforim-count, [lang="yi"] .seforim-count {
+  letter-spacing: 0.06em;
+  text-transform: none;
+}
 
 /* ---- Walk --------------------------------------------------------------- */
 
