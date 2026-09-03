@@ -55,15 +55,26 @@ function WebSeforim({ locale, ui }: { locale: Locale; ui: any }) {
       <h2 className="seforim-title" id="seforim-title">{ui.footer.seforim.title}</h2>
       <p className="footer-body seforim-body">{ui.footer.seforim.body}</p>
       <ul className="seforim-list">
-        {SEFORIM.map((sefer) => (
-          <li key={sefer.url}>
-            <a href={sefer.url} target="_blank" rel="noopener">
-              <span className="seforim-mark" aria-hidden="true" lang="he" dir="rtl">{sefer.letter}</span>
-              <span className="seforim-name" lang="en" dir="ltr">{sefer.name}</span>
-              <span className="seforim-hebrew" lang="he" dir="rtl">{sefer.hebrew}</span>
-            </a>
-          </li>
-        ))}
+        {SEFORIM.map((sefer) =>
+          sefer.current ? (
+            <li key={sefer.url}>
+              <span className="seforim-row seforim-row-current" aria-current="page">
+                <span className="seforim-mark" aria-hidden="true" lang="he" dir="rtl">{sefer.letter}</span>
+                <span className="seforim-name" lang="en" dir="ltr">{sefer.name}</span>
+                <span className="seforim-hebrew" lang="he" dir="rtl">{sefer.hebrew}</span>
+                <span className="seforim-here">{ui.footer.seforim.here}</span>
+              </span>
+            </li>
+          ) : (
+            <li key={sefer.url}>
+              <a className="seforim-row" href={sefer.url} target="_blank" rel="noopener">
+                <span className="seforim-mark" aria-hidden="true" lang="he" dir="rtl">{sefer.letter}</span>
+                <span className="seforim-name" lang="en" dir="ltr">{sefer.name}</span>
+                <span className="seforim-hebrew" lang="he" dir="rtl">{sefer.hebrew}</span>
+              </a>
+            </li>
+          )
+        )}
       </ul>
       <p className="seforim-count">
         {fill(String(ui.footer.seforim.count), { count: formatNumber(SEFORIM.length, locale) })}

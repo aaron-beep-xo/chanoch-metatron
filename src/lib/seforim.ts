@@ -14,11 +14,13 @@ export interface Sefer {
   /** The same name in its own script. */
   hebrew: string;
   url: string;
+  /** Set on the volume this codebase builds — a build-time fact, not a runtime guess. */
+  current?: true;
 }
 
 export const SEFORIM: readonly Sefer[] = [
   { letter: "א", name: "Ein Sof", hebrew: "אין סוף", url: "https://ein-sof.chavahkadmonah.info/en" },
-  { letter: "מ", name: "Metatron", hebrew: "מטטרון", url: "https://enoch-metatron.chavahkadmonah.info/en" },
+  { letter: "מ", name: "Metatron", hebrew: "מטטרון", url: "https://enoch-metatron.chavahkadmonah.info/en", current: true },
   { letter: "ח", name: "Chavah Kadmonah", hebrew: "חוה קדמונה", url: "https://chavahkadmonah.info/" },
   { letter: "ל", name: "Malchus", hebrew: "מלכות", url: "https://malchus.chavahkadmonah.info/en" },
   { letter: "ש", name: "Moshiach", hebrew: "משיח", url: "https://moshiach.chavahkadmonah.info/en" },
